@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: YOUR_DOCKER_IMAGE
+          image: ravibabu7844/devops-app:latest
           ports:
             - containerPort: 3000
           livenessProbe:
